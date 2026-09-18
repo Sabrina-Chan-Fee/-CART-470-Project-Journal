@@ -8,6 +8,6 @@ composers/designers determine the sound sources, their timing, position of the p
 and the grouping of phones.
 
 ## Table of Content
-1) [Week 2](../Week-3/README.md)
+1) [Week 2](../Week-2/README.md)
 
 
