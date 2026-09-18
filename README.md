@@ -1,4 +1,4 @@
-# -CART-470-Project-Journal
+# -CART-470-Project-Journal-week 3
 ## Project Brief Given
 The concept is building a system for distributed listening with mobile phones. Audience
 members enter a room and scan a QR code. This loads a web app into their phone's
