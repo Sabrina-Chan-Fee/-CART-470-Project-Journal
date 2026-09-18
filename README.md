@@ -1,4 +1,5 @@
 # Week 2
+Set up meeting with stakeholder and assigned roles to teammates.
 
 Started developing question to ask to our stakeholder
  * Is there 1 controller for all the phones?
