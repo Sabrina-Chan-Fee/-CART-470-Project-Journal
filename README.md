@@ -12,7 +12,11 @@ We met with Gabriel on Zoom on Friday, September 25th, to ask some more question
 For our proof of concept, we need to create a server that we will temporarily host on Render and be able to play sound on all the devices connected to the server. This demo will be shown to Gabriel during our next meeting on September 30th.
 
 ## System Architecture
+<figure>
 <img width="2386" height="1491" alt="image" src="https://github.com/user-attachments/assets/f6c21e43-e485-4d67-a43d-62d024de5554" />
+  <figcaption><em>Schema by Jess</em></figcaption>
+</figure>
+
 
 - The students will provide a score, which take form of a JSON file that contains the information of how their piece should be played.
 - The JSON should provide the number of groups to divide the phones into
