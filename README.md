@@ -9,5 +9,6 @@ and the grouping of phones.
 
 ## Table of Content
 1) [Week 2](../Week-2/README.md)
+2) [Week 3](../Week-3/README.md)
 
 
