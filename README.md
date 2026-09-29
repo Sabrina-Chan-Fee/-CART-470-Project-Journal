@@ -16,6 +16,7 @@ Host the project on a Compute Canada server that can play audio across groups of
 - Web hosting
 - MaxAudio
 - JavaScript
+- Reactive UI/UX
 
 ## Link to Team Kanban
 
@@ -23,18 +24,20 @@ Host the project on a Compute Canada server that can play audio across groups of
 
 ## Learning Objectives
 
-1. Learn how to use WebSockets.
-2. Learn how to connect to an API (Web Audio).
-3. Learn how to host a server.
-4. Learn how to create a reactive UI.
-5. Learn to work in a group with client expectations.
-6. Learn how to channel each part of the audio into a specific cluster of phones.
+1. Learn how to use WebSockets
+2. Connect API to the server using audio API
+3. Host the server through ComputeCanada
+4. Create a UI that responds to the audio
+5. Learn to work in a group with client expectations
+6. Learn to channel each part of the audio into a specific cluster of phones
+
+
 
 ## Learning Activities
 
 - Research how to use the Web Audio API.
 - Understand how to host the server using Compute Canada for the project.
-- Understand the MaxAudio JSON template needed for the project.
+- Create an example JSON template needed for the project
 - Learn how to make a reactive UI using JavaScript and JSON.
 
 ## Milestones
