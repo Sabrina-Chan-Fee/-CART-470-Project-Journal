@@ -4,11 +4,15 @@
 
 ## Project Focus
 
-Build a distributed listening system using mobile phones and QR codes that can load a web app directly into an individual's phone browser.
+In collaboration with Professor Gabriel Vigliensoni, we are building an open-source distributed listening system for his CART 346 Digital Sound class that uses mobile phones as speaker nodes for spatialized sound installations. Upon entering a room, participants scan a QR code to load a web app in their phone's browser, then place their phone on the ground or a table. Together, the phones act as a spatialized speaker system that can be set up in any room or layout without dedicated audio hardware.
+The project is meant to be a skeleton, or base that others can build on. Students in Gabriel's CART 346 Digital Sound class will be able to fork our GitHub repository, add their own audio files, adjust the UI, and write a JSON score that dictates which sounds play on which phones and when.
+
 
 ## Thesis / Project Outcome
 
-Host the project on a Compute Canada server that can play audio across groups of devices according to JSON instructions completed by students. The student should also be able to fork the GitHub repository. The UI for the **"Maestro View"** should react dynamically to the audio.
+Our goal/thesis is to build a real-time, web-based system that distributes audio across a group of mobile phones in near synchronicity. As participants join by scanning a QR code, the system keeps track of each phone and assigns it to a speaker group based on the piece's JSON score. During playback, sound moves between these groups according to how the sound artist has programmed it, turning the room into a spatialized sound installation.
+The intended outcome of the project is to create an adaptable, open-source tool for artists. By forking our repository and writing their own score, students/artists will be able to present distributed, spatial pieces. The final outcome will be a working demo hosted on Compute Canada, a public GitHub repository, a template score and documentation that make the system easy for others to work with and build on.
+
 
 ## Knowledge Base / Fields / Domains / Keywords
 
@@ -17,6 +21,7 @@ Host the project on a Compute Canada server that can play audio across groups of
 - MaxAudio
 - JavaScript
 - Reactive UI/UX
+- Distributed Audio
 
 ## Link to Team Kanban
 
@@ -25,46 +30,38 @@ Host the project on a Compute Canada server that can play audio across groups of
 ## Learning Objectives
 
 1. Learn how to use WebSockets
-2. Connect API to the server using audio API
-3. Host the server through ComputeCanada
-4. Create a UI that responds to the audio
-5. Learn to work in a group with client expectations
-6. Learn to channel each part of the audio into a specific cluster of phones
-
-
+2. Learn how to use the Web Audio API to load and play audio on phones
+3. Learn how to keep audio in sync across many devices
+4. Design a JSON score template that is simple enough for students to use
+5. Host the server through Compute Canada
+6. Write a clear, concise codebase with documentation so others can fork and use the project
+7. Learn to work in a group and with client expectations
 
 ## Learning Activities
 
-- Research how to use the Web Audio API.
-- Understand how to host the server using Compute Canada for the project.
+- Research on using the Web Audio API
+- Understand how to host the server using Compute Canada for the project
 - Create an example JSON template needed for the project
-- Learn how to make a reactive UI using JavaScript and JSON.
+- Learn to make a reactive UI using JavaScript and JSON
+
 
 ## Milestones
 
 ### 1. Proof of Concept
 
-Have the project work locally with a loaded music file and a server.
-
-When users connect to the page, all connected phones will play a default test sound.
+Proof of concept: Have it work locally with a loaded music file, and have the server. When users connect to the page, all connected phones will play a default test sound. 
 
 ### 2. Audio Grouping
 
-Have the project play audio on different groups of phones according to JSON file instructions.
-
-Apply feedback from Gabriel.
+Have the project be able to play audio on different groups of phones according to JSON file instructions. Apply feedback from Gabriel.
 
 ### 3. Compute Canada Hosting
 
-Host the server using Compute Canada.
-
-The UI should dynamically react according to the audio.
+Be able to host the server using Compute Canada. UI dynamically reacts according to audio. 
 
 ### 4. Final Distributed System
 
-Have a server on Compute Canada that can split audio files across multiple phones.
-
-The controller will create the number of grouped phones and play the audio accordingly.
+Have a server on Compute Canada that can split audio files to multiple phones. The controller will create the number of grouped phones and play the audio
 
 ## Weekly Plan
 
