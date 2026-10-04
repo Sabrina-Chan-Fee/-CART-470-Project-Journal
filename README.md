@@ -6,7 +6,8 @@ browser. They place the phone on the floor or a table. Over the following minute
 phones play back a sound piece or design in assigned groups or individually. The
 composers/designers determine the sound sources, their timing, position of the phones,
 and the grouping of phones.
-
+## Living Learning Contract
+ [Living Learning Contract](../Living-Learning-Contract/README.md)
 ## Table of Content
 1) [Week 2](../Week-2/README.md)
 2) [Week 3](../Week-3/README.md)
