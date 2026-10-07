@@ -13,4 +13,34 @@ The Json form will be use for student to generate a json that will be sent to th
 <img width="560" height="1112" alt="image" src="https://github.com/user-attachments/assets/40dc8703-beca-4fca-a49c-305f21f3bd6d" />
 <img width="1162" height="1172" alt="image" src="https://github.com/user-attachments/assets/fa6ad55d-ac4b-4642-ace2-0a61d64bfc6a" />
 
+This is the first version of our json file.
+```
+{
+  "title": "Test Piece",
+  "sounds": {
+    "test": "audio/test.wav",
+    "belly": "audio/belly.wav"
+  },
+  "groups": {
+    "0": {
+      "effects": [],
+      "events": [
+        { "at": 0, "play": "test" },
+        { "at": 0, "play": "belly" },
+        { "at": 0, "set": "gain", "value": 0 },
+        { "at": 0, "ramp": "gain", "to": 1, "over": 4 }
+      ]
+    },
+    "1": {
+      "effects": [
+        { "id": "filter", "type": "lowpass", "frequency": 500 }
+      ],
+      "events": [
+        { "at": 5, "play": "belly" },
+        { "at": 10, "ramp": "filter.frequency", "to": 3000, "over": 8 }
+      ]
+    }
+  }
+}
+```
 
