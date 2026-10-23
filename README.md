@@ -1,16 +1,8 @@
-# -CART-470-Project-Journal
-## Project Brief Given
-The concept is building a system for distributed listening with mobile phones. Audience
-members enter a room and scan a QR code. This loads a web app into their phone's
-browser. They place the phone on the floor or a table. Over the following minutes, the
-phones play back a sound piece or design in assigned groups or individually. The
-composers/designers determine the sound sources, their timing, position of the phones,
-and the grouping of phones.
-## Living Learning Contract
- [Living Learning Contract](../Living-Learning-Contract/README.md)
-## Table of Content
-1) [Week 2](../Week-2/README.md)
-2) [Week 3](../Week-3/README.md)
-3) [Week 4](../Week-4/README.md)
-4) [Week 5](../Week-5/README.md)
+# Week 6
+## Implementing CSS to the JSON Score form
+After the UI has been fully designed. I implemented the design using CSS for the JSON form. I also edited the field input to be sliders so that users can visually see the range limits for the field. In addition, we changed the way the JSON and audio will be delivered by the user. Now we will have the users deliver a "Package" that will contain the json generated and the audio files they will have uploaded on the JOSN form. Therefor, some field in the JSON form that involved getting the audio file names will have to be removed.
+
+## Implementing 
+I also worked on creating the mobile screen. this included displaying the group numbers and having an interactive button users much click so that audio can be played. 
+
 
