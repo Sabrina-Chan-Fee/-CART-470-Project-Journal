@@ -16,9 +16,10 @@ We've decided to use Gabriel's code as a base to add the JSON form but we will a
 
 We first assigned some new role to certain teams members to better align to their strength relevant to the project. I will no longer be in charge of the UX. Leah will now be the sole UX and UI designer since the project is no longer UI/UX heavy because we'll be using Gabriel's UI. I will be in charge of implement the CSS for the JSON form based on Leahs' old UI for our version of the distributed listening.
 
+## Next steps for next week
 For next week we plan to focus on preparing for the midterm presentation, collecting user feedback form Gabriel's class and conducting user testing of our version with potentially some of his students. Currently, Eamon was able to have the project fetch audio files externaly and has demoed it to Gabriel, who gave positif feedback. 
 
-## Next steps for next week
+Priority task list: 
 
 Eamon:
 - JSON form with playback (gabriel)
