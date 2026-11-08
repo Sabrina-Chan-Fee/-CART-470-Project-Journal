@@ -14,4 +14,5 @@ and the grouping of phones.
 3) [Week 4](../Week-4/README.md)
 4) [Week 5](../Week-5/README.md)
 5) [Week 6](../Week-6/README.md)
-6) [Week 6](../Week-7/README.md)
+6) [Week 7](../Week-7/README.md)
+7) [Week 8](../Week-8/README.md)
